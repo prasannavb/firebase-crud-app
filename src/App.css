@@ -1,0 +1,75 @@
+table,th,td,tr
+{
+  border:2px solid red;
+  width: 50%;
+}
+.Addbtn,.closebtn
+{
+  color:white;
+  width: 100%;
+  padding: 1%;
+  height: fit-content;
+  position: fixed;
+  top:0;
+  cursor: pointer;
+}
+.Addbtn
+{
+  background-color:darkblue;
+}
+
+.closebtn
+{
+  background-color: rgb(196, 11, 11);
+}
+
+.updatebtn,.deletebtn
+{
+    width: 100%;
+    padding: 2%;
+    color:white;
+    cursor: pointer;
+}
+.updatebtn
+{
+  background-color: rgb(194, 194, 10);
+}
+.deletebtn
+{
+  background-color: rgb(196, 11, 11);
+}
+table
+{
+  position: absolute;
+  width: 50%;
+  height: fit-content;
+  left:25%;
+  top:25%;
+}
+.form
+{
+  border: 2px solid red;
+  background-color: rgb(180, 172, 172);
+  width: 25%;
+  height: 25%;
+  padding: 1%;
+  position: absolute;
+  top:37.5%;
+  left:37.5%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form input,.form  button
+{
+  margin: 3% 2% 2% 2%;
+  padding: 3%;
+}
+
+.form button
+{
+    background-color: darkblue;
+    color:white;
+    cursor: pointer;
+}
