@@ -34,6 +34,10 @@ const App=()=>
     {
       alert("Enter the details");
     }
+    else if(!formdata.email.includes("@gmail.com"))
+    {
+      alert('Enter email id Properly')
+    }
     else
     {
       await addDoc(userref,formdata);
